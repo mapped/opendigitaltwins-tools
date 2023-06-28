@@ -213,6 +213,10 @@
       "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Boiler;1"
     },
     {
+      "InputDtmi": "dtmi:com:willowinc:Building;1",
+      "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Building;1"
+    },
+    {
       "InputDtmi": "dtmi:com:willowinc:BreakerPanel;1",
       "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Breaker_Panel;1"
     },
