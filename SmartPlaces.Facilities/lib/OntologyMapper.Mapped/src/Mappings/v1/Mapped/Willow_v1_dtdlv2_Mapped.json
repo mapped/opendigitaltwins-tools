@@ -213,12 +213,12 @@
       "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Boiler;1"
     },
     {
-      "InputDtmi": "dtmi:com:willowinc:Building;1",
-      "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Building;1"
-    },
-    {
       "InputDtmi": "dtmi:com:willowinc:BreakerPanel;1",
       "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Breaker_Panel;1"
+    },
+    {
+      "InputDtmi": "dtmi:com:willowinc:Building;1",
+      "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Building;1"
     },
     {
       "InputDtmi": "dtmi:com:willowinc:BuildingAirStaticPressureSensor;1",
@@ -1867,6 +1867,10 @@
     {
       "InputDtmi": "dtmi:com:willowinc:LoadShedOverrideActuator;1",
       "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Load_Shed_Command;1"
+    },
+    {
+      "InputDtmi": "dtmi:com:willowinc:LoadingDockEquipment;1",
+      "OutputDtmi": "dtmi:mapped:core:Device;1"
     },
     {
       "InputDtmi": "dtmi:com:willowinc:LockoutState;1",
