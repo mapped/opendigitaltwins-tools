@@ -1822,7 +1822,7 @@
     },
     {
       "InputDtmi": "dtmi:com:willowinc:Level;1",
-      "OutputDtmi": "dtmi:mapped:core:Floor_Level;1"
+      "OutputDtmi": "dtmi:mapped:core:Floor;1"
     },
     {
       "InputDtmi": "dtmi:com:willowinc:LevelSensor;1",
