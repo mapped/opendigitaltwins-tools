@@ -3570,7 +3570,7 @@
     },
     {
       "InputDtmi": "dtmi:com:willowinc:VFDFrequencySensor;1",
-      "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Output_Frequency_Sensor;1\""
+      "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Output_Frequency_Sensor;1"
     },
     {
       "InputDtmi": "dtmi:com:willowinc:VFDRunLevelActuator;1",
