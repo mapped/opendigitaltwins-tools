@@ -1830,7 +1830,7 @@
     },
     {
       "InputDtmi": "dtmi:com:willowinc:Library;1",
-      "OutputDtmi": ""
+      "OutputDtmi": "dtmi:org:brickschema:schema:Brick:Library;1"
     },
     {
       "InputDtmi": "dtmi:com:willowinc:LightingController;1",
