@@ -15,23 +15,6 @@
       }
     ]
   },
-  "RelationshipRemaps": [
-    {
-      "InputRelationship": "isPartOf",
-      "OutputRelationship": "isPartOf",
-      "ReverseRelationshipDirection": true
-    },
-    {
-      "InputRelationship": "isCapabilityOf",
-      "OutputRelationship": "isPointOf",
-      "ReverseRelationshipDirection": true
-    },
-    {
-      "InputRelationship": "locatedIn",
-      "OutputRelationship": "hasLocation",
-      "ReverseRelationshipDirection": true
-    }
-  ],
   "InterfaceRemaps": [
     {
       "InputDtmi": "dtmi:com:willowinc:AbsoluteHumiditySensor;1",
@@ -3800,6 +3783,23 @@
     {
       "InputDtmi": "dtmi:com:willowinc:firmwareVersion;1",
       "OutputDtmi": "dtmi:org:brickschema:schema:Brick:firmware_Version;1"
+    }
+  ],
+  "RelationshipRemaps": [
+    {
+      "InputRelationship": "isPartOf",
+      "OutputRelationship": "isPartOf",
+      "ReverseRelationshipDirection": true
+    },
+    {
+      "InputRelationship": "isCapabilityOf",
+      "OutputRelationship": "isPointOf",
+      "ReverseRelationshipDirection": true
+    },
+    {
+      "InputRelationship": "locatedIn",
+      "OutputRelationship": "hasLocation",
+      "ReverseRelationshipDirection": true
     }
   ]
 }
