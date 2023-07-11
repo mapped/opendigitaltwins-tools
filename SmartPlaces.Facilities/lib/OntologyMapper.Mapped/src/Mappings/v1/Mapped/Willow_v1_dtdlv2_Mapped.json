@@ -15,6 +15,23 @@
       }
     ]
   },
+  "RelationshipRemaps": [
+    {
+      "InputRelationship": "isPartOf",
+      "OutputRelationship": "isPartOf",
+      "ReverseRelationshipDirection": true
+    },
+    {
+      "InputRelationship": "isCapabilityOf",
+      "OutputRelationship": "isPointOf",
+      "ReverseRelationshipDirection": true
+    },
+    {
+      "InputRelationship": "locatedIn",
+      "OutputRelationship": "hasLocation",
+      "ReverseRelationshipDirection": true
+    }
+  ],
   "InterfaceRemaps": [
     {
       "InputDtmi": "dtmi:com:willowinc:AbsoluteHumiditySensor;1",
