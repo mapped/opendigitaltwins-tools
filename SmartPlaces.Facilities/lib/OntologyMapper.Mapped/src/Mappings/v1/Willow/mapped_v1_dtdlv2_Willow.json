@@ -4758,12 +4758,7 @@
   ],
   "RelationshipRemaps": [
     {
-      "InputRelationship": "floors",
-      "OutputRelationship": "isPartOf",
-      "ReverseRelationshipDirection": true
-    },
-    {
-      "InputRelationship": "hasPart",
+      "InputRelationship": "isPartOf",
       "OutputRelationship": "isPartOf",
       "ReverseRelationshipDirection": true
     },
@@ -4773,7 +4768,7 @@
       "ReverseRelationshipDirection": true
     },
     {
-      "InputRelationship": "hasPoint",
+      "InputRelationship": "isPointOf",
       "OutputRelationship": "isCapabilityOf",
       "ReverseRelationshipDirection": true
     }
