@@ -4758,7 +4758,7 @@
   ],
   "RelationshipRemaps": [
     {
-      "InputRelationship": "isPartOf",
+      "InputRelationship": "hasPart",
       "OutputRelationship": "isPartOf",
       "ReverseRelationshipDirection": true
     },
@@ -4768,7 +4768,7 @@
       "ReverseRelationshipDirection": true
     },
     {
-      "InputRelationship": "isPointOf",
+      "InputRelationship": "hasPoint",
       "OutputRelationship": "isCapabilityOf",
       "ReverseRelationshipDirection": true
     }
