@@ -3788,18 +3788,18 @@
   "RelationshipRemaps": [
     {
       "InputRelationship": "isPartOf",
-      "OutputRelationship": "isPartOf",
+      "OutputRelationship": "hasPart",
       "ReverseRelationshipDirection": true
     },
     {
       "InputRelationship": "isCapabilityOf",
-      "OutputRelationship": "isPointOf",
+      "OutputRelationship": "hasPoint",
       "ReverseRelationshipDirection": true
     },
     {
       "InputRelationship": "locatedIn",
       "OutputRelationship": "hasLocation",
-      "ReverseRelationshipDirection": true
+      "ReverseRelationshipDirection": false
     }
   ]
 }
